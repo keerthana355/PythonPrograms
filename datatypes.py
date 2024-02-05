@@ -10,7 +10,7 @@ e=["apple","banana","cherry"] #list
 print(type(e))
 f=("apple","banana","cherry") #tuple
 print(type(f))
-g={"name":"john","age":36}
+g={"name":"john","age":36} #dict
 print(type(g))
 h=range(6) #range
 print(type(h))
@@ -24,5 +24,7 @@ l=memoryview(bytes(5)) #memoryview
 print(type(l))
 m=None #None
 print(type(m))
-
-
+n={"apple","banana","cherry"}
+print(type(n))
+o=frozenset({"apple","banana","cherry"})
+print(type(o))
