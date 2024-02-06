@@ -51,3 +51,8 @@ del list4
 #clear
 list1.clear()
 print(list1)
+#copy method
+ls1=[1,2,3,4],
+ls2=[5,6,7,8]
+ls1=ls2.copy()
+print(ls1)
