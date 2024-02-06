@@ -37,6 +37,7 @@ print(a.split())
 x="hello"
 y="world"
 print(x+" "+y)
+#string formatting
 age=26
 txt="my name is john, and my age is {}"
 print(txt.format(age))
