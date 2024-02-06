@@ -19,4 +19,8 @@ print(tuple[2])
 print(tuple3[-1])
 #range
 print(tuple[2:4])
+#converting tuple into list to allow modifications 
+mylist=list(tuple)
+print(mylist)
+print(type(mylist))
 
