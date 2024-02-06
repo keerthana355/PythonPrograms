@@ -38,5 +38,6 @@ x="hello"
 y="world"
 print(x+" "+y)
 age=26
+#string formatting
 txt="my name is john, and my age is {}"
 print(txt.format(age))
