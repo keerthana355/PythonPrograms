@@ -41,3 +41,28 @@ age=26
 #string formatting
 txt="my name is john, and my age is {}"
 print(txt.format(age))
+
+output:
+hello, world
+string is a sequence
+of characters surrounded single quotes
+or double quotes
+l
+b
+a
+n
+a
+n
+a
+12
+True
+hello   
+hello, world
+wor
+HELLO, WORLD
+hello, world
+hello, world
+jello, world
+['hello,', 'world']
+hello world
+my name is john, and my age is 26
