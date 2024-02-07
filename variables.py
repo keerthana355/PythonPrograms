@@ -25,6 +25,22 @@ print(myVariableName)
 MyVariableName=10 
 print(MyVariableName)
 #snake case
+
+output:
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10 20 30
+20 20 20
+python isawesome
+python isfantastic
+python iseasy
 my_variable_name=10
 print(my_variable_name)
 #multiple values to mutilpe variables
