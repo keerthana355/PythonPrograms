@@ -1,7 +1,7 @@
-a=int(input("enter the value of a"))
-b=int(input("enter the value of b"))
+a=input("enter a")
+b=input("enter b")
 if a<b:
- print(" a is less than b")
+  print("a is smaller than b")
 else:
- print("a is greater than b")
- 
+  print("a is greater than b")
+  
