@@ -24,3 +24,15 @@ mylist=list(tuple)
 print(mylist)
 print(type(mylist))
 
+output:
+('apple', 'banana', 'cherry')
+('apple', 'banana', 'cherry', 'apple')
+4
+apple,
+<class 'tuple'>
+('apple', 4, True, 12.3)
+cherry
+12.3
+('cherry', 'apple')
+['apple', 'banana', 'cherry', 'apple']
+<class 'list'>

@@ -56,3 +56,32 @@ ls1=[1,2,3,4],
 ls2=[5,6,7,8]
 ls1=ls2.copy()
 print(ls1)
+
+output:
+<class 'list'>
+[2, 5, 9, 8, 9, 2, 4, 4]
+5
+8
+(1, 'apple', True, False)
+<class 'list'>
+['apple', 'cherry', 'banana']
+apple
+banana
+['guava', 'cherry', 'banana']
+['apple', 'grapes', 'guava', 'cherry', 'banana']
+['grapes', 'guava', 'cherry', 'banana']
+['apple', 'pomegranate', 'guava', 'cherry', 'banana']
+pomegranate
+['apple', 'pomegranate', 'guava', 'cherry', 'banana', 'orange']
+['apple', 'strawberry', 'pomegranate', 'guava', 'cherry', 'banana', 'orange']        
+['dog', 'cat', 'monkey', 'rose', 'lilly', 'jasmine']
+['rose', 'lilly', 'jasmine', 'dog', 'cat', 'monkey', 'rose', 'lilly', 'jasmine']     
+['rose', 'jasmine', 'dog', 'cat', 'monkey', 'rose', 'lilly', 'jasmine']
+['rose', 'dog', 'cat', 'monkey', 'rose', 'lilly', 'jasmine']
+[]
+[5,7,6,8]
+
+
+
+
+

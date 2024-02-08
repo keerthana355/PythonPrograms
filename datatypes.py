@@ -28,3 +28,20 @@ n={"apple","banana","cherry"}
 print(type(n))
 o=frozenset({"apple","banana","cherry"})
 print(type(o))
+
+output:
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'complex'>
+<class 'list'>
+<class 'tuple'>
+<class 'dict'>
+<class 'range'>
+<class 'bool'>
+<class 'bytes'>
+<class 'bytearray'>
+<class 'memoryview'>
+<class 'NoneType'>
+<class 'set'>
+<class 'frozenset'>

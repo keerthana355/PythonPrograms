@@ -31,3 +31,24 @@ print(thisdictionary)
 mydict={"child1":{"name":"kali","year":2004},"child2":{"name":"centos","year":2006}}
 print(mydict)
 print(type(mydict))
+
+output:
+<class 'dict'>
+{'name': 'monkey', 'age': 2}
+2
+<class 'dict'>
+{'name': 'monkey', 'age': 3}
+2
+{'name': 'cat', 'age': 2}
+monkey
+dict_keys(['name', 'age'])
+dict_items([('name', 'monkey'), ('age', 2)])
+{'name': 'monkey', 'age': 2, 'colour': 'red'}
+{'name': 'monkey', 'age': 2, 'colour': 'red'}
+{'child1': {'name': 'kali', 'year': 2004}, 'child2': {'name': 'centos', 'year': 2006}}
+
+
+
+
+
+
