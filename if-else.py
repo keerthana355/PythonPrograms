@@ -15,9 +15,9 @@ a is less than b
 #python program to check whether the given number is even or odd
 a=intput("enter a number:")
 if a%2==0:
- print("given number is even")
+ print("{} is even".format(a))
 else:
- print("given number is odd")
+ print("{} is odd".format(a)
 
 output:
 enter a number:6
