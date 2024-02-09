@@ -13,3 +13,12 @@ if (a%2)==0:
  print("{} is even".format(a))
 else:
  print("{} is odd".format(a))
+
+#using and
+a=10
+b=20
+c=30
+if a>b and c<a:
+ print("both conditions are true")
+else:
+ print("both conditions are false")
