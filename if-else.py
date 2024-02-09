@@ -17,7 +17,7 @@ a=intput("enter a number:")
 if a%2==0:
  print("{} is even".format(a))
 else:
- print("{} is odd".format(a)
+ print("{} is odd".format(a))
 
 output:
 enter a number:6
