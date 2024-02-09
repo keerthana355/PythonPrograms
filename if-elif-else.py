@@ -11,7 +11,7 @@ else:
   print("given number is not equal to 10,50,100")
 
 '''Output:
-given number is not equal to 10,50,100
+given number is not equal to 10,50,100'''
 
                 Program-2
 #Python program to calculate the grade of a student
