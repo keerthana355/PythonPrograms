@@ -57,3 +57,14 @@ else:
 
 '''output:
 a is not greater than b'''
+
+#Python program to check whether a person is eligible to vote or not
+age=int(input("Enter the age:"))
+if age>=18:
+  print("You are eligible to vote")
+else:
+  print("You are not eligible to vote")
+
+'''Output:
+Enter the age:36
+You are eligible to vote'''
