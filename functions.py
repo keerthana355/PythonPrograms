@@ -4,6 +4,9 @@ def my_fun():
  print("Hello world")
 my_fun()
 
+'''Output:
+Hello world'''
+
           #Program-2
 #Python program to illustrate arguments in functions
 def arg(animal):
@@ -12,17 +15,28 @@ arg("tiger")
 arg("lion")
 arg("bear")
 
+'''Output:
+tiger
+lion
+bear'''
+
           #Program-3
 #Python program to illustrate  arbitrary arguments(*args) in functions
 def fun(*numbers):
   print("The lowest number is",numbers[0])
 fun(0,1,2,3,4,5)
 
-          #Program-4
+'''Output:
+The lowest number is 0'''
+         
+         #Program-4
 #Python program to illustrate  keyword arguments in functions
 def my_function(child3, child2, child1):
   print("The youngest child is " + child3)
 my_function(child1 = "sita", child2 = "gita", child3 = "rita")
+
+'''Output:
+The youngest child is rita'''
 
          #Program-5
 #Return statements
@@ -31,6 +45,11 @@ def my_function(x):
 print(my_function(3))
 print(my_function(5))
 print(my_function(9))
+
+'''Output:
+15
+25
+45'''
 
          #Python-6
 #pass statement
@@ -43,6 +62,9 @@ def sum(a,b):
  return a+b
 print(sum(2,4))  
 
+'''Output:
+6   '''
+
         #Program-8  
 #Python program to check the given number is even or odd
 def fun(x):
@@ -53,11 +75,18 @@ def fun(x):
 fun(9)
 fun(10)
 
+'''Output:
+odd
+even'''
+
         #Program-9
 #Python program to find the square of a number
 def square(num):    
     return num**2            
 print(square(99)) 
+
+'''Output:
+9801 '''
        
         #Program-9
 #Python program to illustrate nested functions  
@@ -67,6 +96,9 @@ def f1():
         print(s)
     f2()
 f1()
+
+'''Output:
+hello world '''
  
          #Program-10
 #Python program to illustrate recursive functions 
@@ -76,7 +108,10 @@ def factorial(n):
         return 1
     else:
         return n*factorial(n-1) 
-print(factorial(8))        
+print(factorial(8))   
+
+'''Output:
+40320 '''
  
         #Program-11         
 #Python program to check the number is prime or not using recursion
@@ -91,4 +126,6 @@ if Prime(667):
 else:
     print(667,"is not a Prime")
 
+'''Output:
+667 is not a Prime '''
 
