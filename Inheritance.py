@@ -74,3 +74,43 @@ obj.displayInfo()
 '''Output:
 Ram 24
 sita 24 16-03-2000 '''
+
+          #Program-5
+class Human:
+
+ def __init__(self,heart):
+   self.eyes=2
+   self.nose=1
+   self.heart=heart
+
+ def work(self):
+   print("I can study")
+
+class Male(Human):
+ def __init__(self,name,heart):
+   super().__init__(heart)
+   self.name=name
+
+ def lift(self):
+   print("I can lift")
+
+ def work(self):
+   super().work()
+   print("I can code")
+
+Male_1=Male("Ram",1)
+print(Male_1.work())
+print(Male_1.lift())
+print(Male_1.eyes)
+print(Male_1.name)
+print(Male_1.heart)
+
+'''Output:
+I can study
+I can code
+None
+I can lift
+None
+2
+Ram
+1 '''
