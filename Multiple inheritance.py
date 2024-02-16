@@ -1,28 +1,40 @@
 # Python example to show the working of multiple inheritance
-class Employee:
-        pass
-class Person1(Employee):
-	def __init__(self):
-		self.name1="Ram"
-		print("Person1")
-class Person2(Employee):
-	def __init__(self):
-		self.str2="Sita"
-		print("Person2")
-class Derived(Person1, Person2):
-	def __init__(self):
-		Person1.__init__(self)
-		Person2.__init__(self)
-		print("Derived")
-        def printname(self):
-		print(self.name1,self.name2)
-emp=Derived()
-emp.printname()
+class human:
+ def __init__(self,heart):
+  self.eyes=2
+  self.nose=1
+  self.heart=heart
+ def eat(self):
+  print("I can eat")
+ def work(self):
+  print("I can work")
+ 
+class male:
+ def __init__(self,name):
+  self.name=name
+ def lift(self):
+  print("I can lift")
+ def work(self):
+  print("I can code")
 
-'''Output:
-Person1
-Person2
-Derived
-Ram Sita '''
+class boy(human,male):
+ def __init__(self,name,heart,language):
+  self.language=language
+  human.__init__(self,heart)
+  male.__init__(self,name)
+ def work(self):
+  print("I can test")
+ def display(self):
+  print(f"I work on {self.language}")
+boy_1=boy("Ram",1,"python")
 
-
+boy_1.work()
+male.work(boy_1)
+human.eat(boy_1)
+print(boy.mro())
+print(boy_1.nose)
+print(boy_1.eyes)
+print(boy_1.name)
+print(boy_1.heart)
+print(boy_1.language)
+boy_1.display()
