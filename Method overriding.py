@@ -15,3 +15,7 @@ male_1.work()
 
 human_1=human()
 human_1.work()
+
+'''Output:
+I can code
+I can work '''
