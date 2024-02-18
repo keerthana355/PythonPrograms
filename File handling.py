@@ -82,20 +82,11 @@ f.write("I want to become expert in python")
 '''Output:
 hi welcomeI want to become expert in python '''
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 60950deeebf45c3123a121beec4e85c526d7d3ad
 #a+ mode
 f=open("file1.txt","a+")
 f.write("I want to become expert in python")
 f.seek(0)
 print(f.read())
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 60950deeebf45c3123a121beec4e85c526d7d3ad
 
 '''Output:
 hi welcomeI want to become expert in pythonI want to become expert in python '''
