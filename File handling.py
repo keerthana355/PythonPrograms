@@ -89,5 +89,3 @@ print(f.read())
 
 '''Output:
 hi welcomeI want to become expert in pythonI want to become expert in python '''
-
-
