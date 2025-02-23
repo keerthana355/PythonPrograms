@@ -13,7 +13,7 @@ else:
 '''Output:
 a is less than 100
 a is odd'''
-                 Program-2
+            Program-2
 #Python program to check the given number is divisible by 2 and 3
 num=59
 if num%2==0:
